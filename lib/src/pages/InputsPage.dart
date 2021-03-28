@@ -7,7 +7,6 @@ class InputsPage extends StatefulWidget {
 
 class _InputsPageState extends State<InputsPage> {
   String _name = '', _email = '', _password = '';
-  //Control para manipular el input
   TextEditingController _input = TextEditingController();
 
   @override
